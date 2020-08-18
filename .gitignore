@@ -1,5 +1,5 @@
 # Webpack output directories, and generated static assets
-public
+dist
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
@@ -20,5 +20,3 @@ dump.rdb
 
 coverage/
 
-# Build folder
-dist
