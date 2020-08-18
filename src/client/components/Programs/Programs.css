@@ -1,0 +1,49 @@
+.programs {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 0;
+   margin-top: 1rem;
+}
+
+.label {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.value {
+    font-weight: 500;
+    color: rgb(20, 20, 201)
+}
+
+.card-img-top {
+    padding: 15px;
+}
+
+.card {
+    margin-bottom: 1rem;
+    flex: 0 1 calc(33% - 1em);
+    font-size: 0.8rem;
+}
+
+
+@media (max-width: 575.98px) { 
+    .card {
+        flex: 0 1 100%;
+        font-size: 1rem;
+    }
+ }
+
+
+@media (min-width: 576px) { 
+    .card {
+        flex: 0 1 calc(50% - 1rem)
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .card {
+        flex: 0 1 calc(33% - 1rem)
+    }
+ }

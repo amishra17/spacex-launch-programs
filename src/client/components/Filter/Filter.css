@@ -1,0 +1,26 @@
+.filter-type {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.filter {
+    background: #ffff;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.filter-btn {
+    background: #78ad3b;
+    opacity: 0.6;
+    margin: 1rem 0;
+    min-width: 4rem;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.filter-btn-col {
+    text-align: center;
+}
